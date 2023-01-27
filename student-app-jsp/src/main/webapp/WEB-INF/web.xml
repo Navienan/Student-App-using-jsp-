@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <display-name>student-app-jsp</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+  	<servlet-name>homePage</servlet-name>
+  	<jsp-file>/WEB-INF/jsp_files/index.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>homePage</servlet-name>
+  	<url-pattern>/main</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>dashBoard</servlet-name>
+  	<jsp-file>/WEB-INF/jsp_files/dash-board.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>dashBoard</servlet-name>
+  	<url-pattern>/dash-board</url-pattern>
+  </servlet-mapping> 
+  
+  <servlet>
+  	<servlet-name>registerStudentForm</servlet-name>
+  	<jsp-file>/WEB-INF/jsp_files/register-student-form.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>registerStudentForm</servlet-name>
+  	<url-pattern>/register-student-form</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>registerStudent</servlet-name>
+  	<jsp-file>/WEB-INF/jsp_files/register-student.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>registerStudent</servlet-name>
+  	<url-pattern>/register-student</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>loginStudentForm</servlet-name>
+  	<jsp-file>/WEB-INF/jsp_files/login-student-form.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>loginStudentForm</servlet-name>
+  	<url-pattern>/login-student-form</url-pattern>
+  </servlet-mapping>  
+  
+  <servlet>
+  	<servlet-name>loginStudent</servlet-name>
+  	<jsp-file>/WEB-INF/jsp_files/login-student.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>loginStudent</servlet-name>
+  	<url-pattern>/login-student</url-pattern>
+  </servlet-mapping> 
+  
+  <servlet>
+  	<servlet-name>displayAllStudent</servlet-name>
+  	<jsp-file>/WEB-INF/jsp_files/display-all-student.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>displayAllStudent</servlet-name>
+  	<url-pattern>/display-all-students</url-pattern>
+  </servlet-mapping> 
+  
+  <servlet>
+  	<servlet-name>searchStudentForm</servlet-name>
+  	<jsp-file>/WEB-INF/jsp_files/search-student-form.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>searchStudentForm</servlet-name>
+  	<url-pattern>/search-student-form</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>searchStudent</servlet-name>
+  	<jsp-file>/WEB-INF/jsp_files/search-student.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>searchStudent</servlet-name>
+  	<url-pattern>/search-student</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>deleteStudentForm</servlet-name>
+  	<jsp-file>/WEB-INF/jsp_files/delete-student-form.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>deleteStudentForm</servlet-name>
+  	<url-pattern>/delete-student-form</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>deleteStudent</servlet-name>
+  	<jsp-file>/WEB-INF/jsp_files/delete-student.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>deleteStudent</servlet-name>
+  	<url-pattern>/delete-student</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>displayBasedOnMarksForm</servlet-name>
+  	<jsp-file>/WEB-INF/jsp_files/display-based-on-marks-students-form.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>displayBasedOnMarksForm</servlet-name>
+  	<url-pattern>/display-based-on-marks-students-form</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>displayBasedOnMarks</servlet-name>
+  	<jsp-file>/WEB-INF/jsp_files/display-based-on-marks-students.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>displayBasedOnMarks</servlet-name>
+  	<url-pattern>/display-based-on-marks-students</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>forgetPasswordForm</servlet-name>
+  	<jsp-file>/WEB-INF/jsp_files/forget-password-form.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>displayBasedOnMarks</servlet-name>
+  	<url-pattern>/forget-password-form</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
